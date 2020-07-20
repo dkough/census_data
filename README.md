@@ -14,6 +14,8 @@ Then, you select the variables you wish to use and paste them into the "variable
 they do change between APIs, scroll down and see the heading 'Variable Changes' here https://www.census.gov/data/developers/data-sets/acs-5year.html.
 Only place one zip code or variable per line.  Do not leave any empty lines.
 
+The town_names file is where you input the names of the geographies and locations the zip codes encompass. 
+
 The webscraping does not use variables but instead looks for matching text.  The tables on zip-codes.com do not have unique identifiers, which is why this webscrape takes
 the entire page, and is very slow.
 
